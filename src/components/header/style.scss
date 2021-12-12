@@ -1,0 +1,28 @@
+#header {
+  .nav {
+    font-weight: 600;
+  }
+  .form-control, .input-group-text {
+    border: 0;
+    background: #F0F6FF;
+  }
+  .form-control {
+    border-radius: 0 20px 20px 0;
+  }
+  .input-group-text {
+    border-radius: 20px 0 0 20px;
+  }
+  .icons {
+    width: 150px;
+    i {
+      font-size: 20px;
+      margin-right: 20px;
+      &:last-child {
+        margin: 0;
+      }
+    }
+    .bi-person {
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+#carousel-cat0 {
+  margin-bottom: 100px;
+  .carousel-item {
+    padding: 45px;
+    color: white;
+    background: #0A162B;
+  }
+}
+
+.nav {
+  .nav {
+    margin-left: 30px;
+  }
+}
+
+.menu {
+  strong {
+    font-size: 20px;
+  }
+  ul {
+    margin-bottom: 30px;
+  }
+}
+.color-item {
+  border: 1px solid #AAAAAC;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  &.white {
+    background: white;
+  }
+  &.black {
+    background: #323334;
+  }
+  &.gray {
+    background: #C4C4C4;
+  }
+  &.yellow {
+    background: #F2C94C;
+  }
+}

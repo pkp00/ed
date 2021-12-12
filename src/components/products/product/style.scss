@@ -1,0 +1,21 @@
+[id^=product] {
+  margin-bottom: 40px;
+  img {
+    height: 270px;
+    width: 270px;
+  }
+  div {
+    span {
+      display: block;
+    }
+    .red {
+      color: #DB5C14;
+    }
+    .price {
+      color: #3478EA;
+    }
+  }
+}
+[id^=products] {
+  margin-bottom: 40px;
+}

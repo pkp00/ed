@@ -1,0 +1,16 @@
+.blue {
+  color: #3478EA;
+}
+.filter {
+  display: flex;
+  margin: 60px 0;
+  .uppercase {
+    flex-grow: 1;
+  }
+  span {
+    margin-right: 30px;
+  }
+  i {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+#navigation {
+  font-weight: 700;
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .point {
+      display: block;
+      width: 8px;
+      height: 8px;
+      background: #DEE3EA;
+      border-radius: 20px;
+    }
+  }
+}

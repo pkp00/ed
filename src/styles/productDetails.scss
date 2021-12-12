@@ -1,0 +1,78 @@
+.oval-announcement {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 26px;
+  height: 130px;
+  margin-top: 10px;
+  div {
+    background: #0A162B;
+    padding: 100px 70px;
+    color: white;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: -85px;
+    margin-right: -85px;
+    z-index: 10;
+  }
+  button {
+    font-weight: 600;
+    margin-left: 85px;
+  }
+}
+
+.product-details {
+  margin: 80px 0;
+  * {
+    margin-bottom: 20px;
+  }
+  img {
+    margin: 5px;
+  }
+  h3, h1 {
+    font-weight: 700;
+  }
+  .rating {
+    display: flex;
+    i {
+      color: $color-yellow;
+      margin-right: 5px;
+      &:last-child {
+        color: #DEE3EA;
+      }
+    }
+  }
+  .colors {
+    display: flex;
+    li {
+      margin: 10px;
+    }
+  }
+  .count-and-like {
+    display: flex;
+    align-items: center;
+    i {
+      font-size: 25px;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      * {
+        margin-right: 8px;
+      }
+    }
+    .count {
+      flex-grow: 1;
+      input {
+        width: 35px;
+      }
+    }
+  }
+
+  .reviews {
+    border: 1px solid #AAAAAC;
+    margin-right: 10px;
+  }
+}

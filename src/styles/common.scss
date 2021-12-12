@@ -1,0 +1,186 @@
+.uppercase {
+  text-transform: uppercase;
+}
+.underline {
+  text-decoration: underline;
+}
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+    padding: 0;
+  }
+}
+hr {
+  margin: 15px 0;
+}
+.center {
+  text-align: center;
+}
+.logo {
+  height: 40px;
+  width: 80px;
+}
+.carousel {
+  margin: 40px 0;
+}
+h2 {
+  font-weight: 700;
+}
+
+.blue {
+  color: $color-blue;
+}
+.orange {
+  color: $color-orange;
+}
+
+.header-info {
+  display: block;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background-color: #0A162B;
+  margin-bottom: 15px;
+
+  span {
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  &:hover, &:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.carousel-info-block {
+  padding: 65px 40px;
+  color: white;
+
+  h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  div {
+    font-size: 12px;
+    margin-bottom: 20px;
+
+    strong {
+      display: block;
+    }
+  }
+
+  button {
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+}
+
+#carousel0 {
+  background: #1E3117;
+}
+
+.rooms-catalog {
+  li {
+    text-align: center;
+    margin-bottom: 40px;
+    span {
+      font-size: 18px;
+      display: block;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 350px;
+      height: 270px;
+    }
+  }
+}
+
+#carousel1 {
+  background: #A2907D;
+}
+
+.abc-sales {
+  p {
+    margin-top: 25px;
+  }
+  margin-bottom: 40px;
+}
+
+.advertising {
+  position: relative;
+  margin: 80px 0;
+  div {
+    background: #0A162B;
+    padding: 60px 65px;
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    height: 100%;
+    width: 45%;
+
+    span {
+      color: #3478EA;
+    }
+  }
+}
+
+.abc-card {
+  li {
+    margin-bottom: 30px;
+    img {
+      margin-bottom: 35px;
+    }
+    .card-title {
+      font-weight: 400!important;
+      font-size: 18px!important;
+    }
+  }
+}
+
+.home-ideas {
+  margin: 40px 0;
+  .row {
+    margin-bottom: 20px;
+  }
+}
+
+.subscribe {
+  margin-top: 40px;
+  img {
+    padding: 0;
+  }
+  div {
+    background: #F0F6FF;
+    padding: 80px 110px;
+    i {
+      font-size: 70px;
+      color: #3478EA;
+      margin-bottom: 40px;
+    }
+    h2 {
+      margin-bottom: 22px;
+    }
+    .email {
+      display: flex;
+      input {
+        margin-right: 20px;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        border-bottom: 1px solid;
+      }
+    }
+  }
+}
+
+footer {
+  margin: 80px 0;
+}

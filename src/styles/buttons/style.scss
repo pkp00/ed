@@ -1,0 +1,7 @@
+.btn-dark {
+  @include button-variant($dark, $dark)
+}
+.btn-outline-light {
+  @include button-outline-variant(#DEE3EA);
+  color: $dark;
+}
